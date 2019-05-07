@@ -4,22 +4,26 @@
 // console.log("Function was invoked!");
 // };
 // myFunction();
+const myFunction = () => console.log("function was invoked!");
 
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
+const anotherFunction = (param) => param;
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
+const add = (num1, num2) => num1 + num2;
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
 
+const subtract = (num1, num2) => num1 - num2;
 
 // Stretch
 
